@@ -270,7 +270,7 @@ classdef UtilForFormat < handle
                 end
             end
             right = nn - ir + 1;
-            display(sprintf('%d %d %d %d',upper, lower, left, right));
+            %display(sprintf('%d %d %d %d',upper, lower, left, right));
             width = right - left + 1;
             height = lower - upper + 1;
             ratio = width / height;
