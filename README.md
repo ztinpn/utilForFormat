@@ -12,14 +12,13 @@ matlab学位论文绘图辅助工具
 1. 固定宽度设置（这样就不用缩放了，直接贴到word里，那么字体就不会变大变小）
 2. 自动样式（多个不同的线在同一图中时，不需要手动设置逐个线的样式了）
 3. 二维图固定宽度时可能在两侧出现空白，写代码解决了。
-4. 统计功能：
-数据是公开的，实时更新，大家可以在http://new.cnzz.com/v1/login.php?siteid=1254502417里查看（访客分析->地区\运营商）。数据可能长这样：
-![全国使用情况示意图](http://upload-images.jianshu.io/upload_images/230469-dbb5e8b23d08cddd.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-
-如果你不想被统计，可以关闭该功能，很简单，把
+4. 使用情况统计功能：
+数据是公开的，实时更新，大家可以在http://new.cnzz.com/v1/login.php?siteid=1254502417 里查看（访客分析->地区\运营商）。如果你不想被统计，可以关闭该功能，很简单，把
 ```java
 utilForFormat = UtilForFormat('on');
 ```
 里的on改为off即可。
+
+
 效果和说明如图：
 ![image.png](http://upload-images.jianshu.io/upload_images/230469-d7aa63ef5d800cd9.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
